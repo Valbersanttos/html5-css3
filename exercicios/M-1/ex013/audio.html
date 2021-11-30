@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias-áudios em HTML</title>
+</head>
+<body>
+    <h1>Rproduzindo áudio</h1>
+    <p>Vamos aprender reproduzir áudio em HTML5</p>
+    <audio src="midia-audio/eseeucrer.mp3" controls autoplay></audio>
+    <!--Formatos de áudios: MP3 WAV OGG-->
+    
+    <!--Ouyra forma de inserir mídia no seu site-->
+    <audio preload="metadata" autoplay controls>
+        <source src="midia-audio/eseeucrer.mp3" type="audio/mpeg">
+        <source src="midia-audio/eseeucrer.ogg" type="audio/ogg">
+        <source src="midia-audio/eseeucrer.wav" type="audio/wav">
+        <!--Evite usar arquivo wav, eles são muito pesado-->
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia-audio/eseeucrer.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio> 
+</body>
+</html>

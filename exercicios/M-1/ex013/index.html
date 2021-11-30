@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Teste Pessoal</title>
+</head>
+<body>
+    <h1>Praticando Adaptação de imagem</h1>
+  
+    <picture>
+        <source media="(max-width: 750px)" srcset=" img/piguin-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="img/piguin-m.png" type="image/png">
+        <img src="img/piguin-g.png" alt="imagem flexível">
+    </picture>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/foto-m.png" type="image/png">
+        <img src="img/foto-g.png" alt="imagem flexível">
+    </picture>
+    
+</body>
+</html>

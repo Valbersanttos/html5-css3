@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(29, 26, 26);
+    text-align: center;
+}
+h1{
+    color: white;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: blueviolet;
+}
+a img:hover{
+    width: 203px;
+}
+.voltar:hover{
+    width: 53px;
+}
